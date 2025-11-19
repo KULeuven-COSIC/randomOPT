@@ -1,0 +1,15 @@
+{
+  "num_nodes": 31,
+  "num_edges": 59,
+  "max_possible_edges": 465,
+  "density": 0.12688172043010754,
+  "num_colors_used": 3,
+  "total_input_cliques": 122,
+  "max_input_clique_size": 3,
+  "avg_input_clique_size": 2.2131147540983607,
+  "input_clique_size_distribution": {
+    "1": 3,
+    "2": 90,
+    "3": 29
+  }
+}

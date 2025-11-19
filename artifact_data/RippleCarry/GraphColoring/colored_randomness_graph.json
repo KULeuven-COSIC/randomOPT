@@ -1,0 +1,366 @@
+{
+  "nodes": [
+    {
+      "node": "r_depth10_t2_9",
+      "color": 1
+    },
+    {
+      "node": "r_depth11_t2_10",
+      "color": 2
+    },
+    {
+      "node": "r_depth12_t2_11",
+      "color": 0
+    },
+    {
+      "node": "r_depth13_t2_12",
+      "color": 1
+    },
+    {
+      "node": "r_depth14_t2_13",
+      "color": 2
+    },
+    {
+      "node": "r_depth15_t2_14",
+      "color": 0
+    },
+    {
+      "node": "r_depth16_t2_15",
+      "color": 1
+    },
+    {
+      "node": "r_depth17_t2_16",
+      "color": 2
+    },
+    {
+      "node": "r_depth18_t2_17",
+      "color": 0
+    },
+    {
+      "node": "r_depth19_t2_18",
+      "color": 1
+    },
+    {
+      "node": "r_depth1_c1",
+      "color": 1
+    },
+    {
+      "node": "r_depth20_t2_19",
+      "color": 2
+    },
+    {
+      "node": "r_depth21_t2_20",
+      "color": 0
+    },
+    {
+      "node": "r_depth22_t2_21",
+      "color": 1
+    },
+    {
+      "node": "r_depth23_t2_22",
+      "color": 2
+    },
+    {
+      "node": "r_depth24_t2_23",
+      "color": 0
+    },
+    {
+      "node": "r_depth25_t2_24",
+      "color": 1
+    },
+    {
+      "node": "r_depth26_t2_25",
+      "color": 2
+    },
+    {
+      "node": "r_depth27_t2_26",
+      "color": 0
+    },
+    {
+      "node": "r_depth28_t2_27",
+      "color": 1
+    },
+    {
+      "node": "r_depth29_t2_28",
+      "color": 2
+    },
+    {
+      "node": "r_depth2_t2_1",
+      "color": 2
+    },
+    {
+      "node": "r_depth30_t2_29",
+      "color": 0
+    },
+    {
+      "node": "r_depth31_t2_30",
+      "color": 1
+    },
+    {
+      "node": "r_depth3_t2_2",
+      "color": 0
+    },
+    {
+      "node": "r_depth4_t2_3",
+      "color": 1
+    },
+    {
+      "node": "r_depth5_t2_4",
+      "color": 2
+    },
+    {
+      "node": "r_depth6_t2_5",
+      "color": 0
+    },
+    {
+      "node": "r_depth7_t2_6",
+      "color": 1
+    },
+    {
+      "node": "r_depth8_t2_7",
+      "color": 2
+    },
+    {
+      "node": "r_depth9_t2_8",
+      "color": 0
+    }
+  ],
+  "edges": [
+    [
+      "r_depth10_t2_9",
+      "r_depth11_t2_10"
+    ],
+    [
+      "r_depth10_t2_9",
+      "r_depth12_t2_11"
+    ],
+    [
+      "r_depth11_t2_10",
+      "r_depth12_t2_11"
+    ],
+    [
+      "r_depth11_t2_10",
+      "r_depth13_t2_12"
+    ],
+    [
+      "r_depth12_t2_11",
+      "r_depth13_t2_12"
+    ],
+    [
+      "r_depth12_t2_11",
+      "r_depth14_t2_13"
+    ],
+    [
+      "r_depth13_t2_12",
+      "r_depth14_t2_13"
+    ],
+    [
+      "r_depth13_t2_12",
+      "r_depth15_t2_14"
+    ],
+    [
+      "r_depth14_t2_13",
+      "r_depth15_t2_14"
+    ],
+    [
+      "r_depth14_t2_13",
+      "r_depth16_t2_15"
+    ],
+    [
+      "r_depth15_t2_14",
+      "r_depth16_t2_15"
+    ],
+    [
+      "r_depth15_t2_14",
+      "r_depth17_t2_16"
+    ],
+    [
+      "r_depth16_t2_15",
+      "r_depth17_t2_16"
+    ],
+    [
+      "r_depth16_t2_15",
+      "r_depth18_t2_17"
+    ],
+    [
+      "r_depth17_t2_16",
+      "r_depth18_t2_17"
+    ],
+    [
+      "r_depth17_t2_16",
+      "r_depth19_t2_18"
+    ],
+    [
+      "r_depth18_t2_17",
+      "r_depth19_t2_18"
+    ],
+    [
+      "r_depth18_t2_17",
+      "r_depth20_t2_19"
+    ],
+    [
+      "r_depth19_t2_18",
+      "r_depth20_t2_19"
+    ],
+    [
+      "r_depth19_t2_18",
+      "r_depth21_t2_20"
+    ],
+    [
+      "r_depth1_c1",
+      "r_depth2_t2_1"
+    ],
+    [
+      "r_depth1_c1",
+      "r_depth3_t2_2"
+    ],
+    [
+      "r_depth20_t2_19",
+      "r_depth21_t2_20"
+    ],
+    [
+      "r_depth20_t2_19",
+      "r_depth22_t2_21"
+    ],
+    [
+      "r_depth21_t2_20",
+      "r_depth22_t2_21"
+    ],
+    [
+      "r_depth21_t2_20",
+      "r_depth23_t2_22"
+    ],
+    [
+      "r_depth22_t2_21",
+      "r_depth23_t2_22"
+    ],
+    [
+      "r_depth22_t2_21",
+      "r_depth24_t2_23"
+    ],
+    [
+      "r_depth23_t2_22",
+      "r_depth24_t2_23"
+    ],
+    [
+      "r_depth23_t2_22",
+      "r_depth25_t2_24"
+    ],
+    [
+      "r_depth24_t2_23",
+      "r_depth25_t2_24"
+    ],
+    [
+      "r_depth24_t2_23",
+      "r_depth26_t2_25"
+    ],
+    [
+      "r_depth25_t2_24",
+      "r_depth26_t2_25"
+    ],
+    [
+      "r_depth25_t2_24",
+      "r_depth27_t2_26"
+    ],
+    [
+      "r_depth26_t2_25",
+      "r_depth27_t2_26"
+    ],
+    [
+      "r_depth26_t2_25",
+      "r_depth28_t2_27"
+    ],
+    [
+      "r_depth27_t2_26",
+      "r_depth28_t2_27"
+    ],
+    [
+      "r_depth27_t2_26",
+      "r_depth29_t2_28"
+    ],
+    [
+      "r_depth28_t2_27",
+      "r_depth29_t2_28"
+    ],
+    [
+      "r_depth28_t2_27",
+      "r_depth30_t2_29"
+    ],
+    [
+      "r_depth29_t2_28",
+      "r_depth30_t2_29"
+    ],
+    [
+      "r_depth29_t2_28",
+      "r_depth31_t2_30"
+    ],
+    [
+      "r_depth2_t2_1",
+      "r_depth3_t2_2"
+    ],
+    [
+      "r_depth2_t2_1",
+      "r_depth4_t2_3"
+    ],
+    [
+      "r_depth30_t2_29",
+      "r_depth31_t2_30"
+    ],
+    [
+      "r_depth3_t2_2",
+      "r_depth4_t2_3"
+    ],
+    [
+      "r_depth3_t2_2",
+      "r_depth5_t2_4"
+    ],
+    [
+      "r_depth4_t2_3",
+      "r_depth5_t2_4"
+    ],
+    [
+      "r_depth4_t2_3",
+      "r_depth6_t2_5"
+    ],
+    [
+      "r_depth5_t2_4",
+      "r_depth6_t2_5"
+    ],
+    [
+      "r_depth5_t2_4",
+      "r_depth7_t2_6"
+    ],
+    [
+      "r_depth6_t2_5",
+      "r_depth7_t2_6"
+    ],
+    [
+      "r_depth6_t2_5",
+      "r_depth8_t2_7"
+    ],
+    [
+      "r_depth7_t2_6",
+      "r_depth8_t2_7"
+    ],
+    [
+      "r_depth7_t2_6",
+      "r_depth9_t2_8"
+    ],
+    [
+      "r_depth8_t2_7",
+      "r_depth10_t2_9"
+    ],
+    [
+      "r_depth8_t2_7",
+      "r_depth9_t2_8"
+    ],
+    [
+      "r_depth9_t2_8",
+      "r_depth10_t2_9"
+    ],
+    [
+      "r_depth9_t2_8",
+      "r_depth11_t2_10"
+    ]
+  ]
+}

@@ -1,0 +1,217 @@
+Report file after 3000000 simulations:
+
+1.) Summary of most leaking (and already active) probing sets per clock cycle: 
+
+Cycle 1: @[\rand_bit_share1[38](1)] ==> [\rand_bit_share1[38](1)] -log10(p) = 3.32305 --> OKAY
+Cycle 2: @[\rand_bit_share1[38](2)] ==> [\rand_bit_share1[38](2), \rand_bit_share1[38](1)] -log10(p) = 3.32305 --> OKAY
+Cycle 3: @[\rand_bit_share1[38](3)] ==> [\rand_bit_share1[38](3), \rand_bit_share1[38](2)] -log10(p) = 3.32305 --> OKAY
+Cycle 4: @[\rand_bit_share1[38](4)] ==> [\rand_bit_share1[38](4), \rand_bit_share1[38](3)] -log10(p) = 3.32305 --> OKAY
+Cycle 5: @[\rand_bit_share1[38](5)] ==> [\rand_bit_share1[38](5), \rand_bit_share1[38](4)] -log10(p) = 3.32305 --> OKAY
+Cycle 6: @[\rand_bit_share1[38](6)] ==> [\rand_bit_share1[38](6), \rand_bit_share1[38](5)] -log10(p) = 3.32305 --> OKAY
+Cycle 7: @[\rand_bit_share1[38](7)] ==> [\rand_bit_share1[38](7), \rand_bit_share1[38](6)] -log10(p) = 3.32305 --> OKAY
+Cycle 8: @[\rand_bit_share1[38](8)] ==> [\rand_bit_share1[38](8), \rand_bit_share1[38](7)] -log10(p) = 3.32305 --> OKAY
+Cycle 9: @[\rand_bit_share1[38](9)] ==> [\rand_bit_share1[38](9), \rand_bit_share1[38](8)] -log10(p) = 3.32305 --> OKAY
+Cycle 10: @[\rand_bit_share1[38](10)] ==> [\rand_bit_share1[38](10), \rand_bit_share1[38](9)] -log10(p) = 3.32305 --> OKAY
+
+2.) Summary of the most leakging (and already active) probing sets: 
+
+@[\rand_bit_share1[38](1)] ==> [\rand_bit_share1[38](1)] -log10(p) = 3.32305 --> OKAY
+@[\rand_bit_share1[38](2)] ==> [\rand_bit_share1[38](2), \rand_bit_share1[38](1)] -log10(p) = 3.32305 --> OKAY
+@[\rand_bit_share1[38](3)] ==> [\rand_bit_share1[38](3), \rand_bit_share1[38](2)] -log10(p) = 3.32305 --> OKAY
+@[\rand_bit_share1[38](4)] ==> [\rand_bit_share1[38](4), \rand_bit_share1[38](3)] -log10(p) = 3.32305 --> OKAY
+@[\rand_bit_share1[38](5)] ==> [\rand_bit_share1[38](5), \rand_bit_share1[38](4)] -log10(p) = 3.32305 --> OKAY
+@[\rand_bit_share1[38](6)] ==> [\rand_bit_share1[38](6), \rand_bit_share1[38](5)] -log10(p) = 3.32305 --> OKAY
+@[\rand_bit_share1[38](7)] ==> [\rand_bit_share1[38](7), \rand_bit_share1[38](6)] -log10(p) = 3.32305 --> OKAY
+@[\rand_bit_share1[38](8)] ==> [\rand_bit_share1[38](8), \rand_bit_share1[38](7)] -log10(p) = 3.32305 --> OKAY
+@[\rand_bit_share1[38](9)] ==> [\rand_bit_share1[38](9), \rand_bit_share1[38](8)] -log10(p) = 3.32305 --> OKAY
+@[\rand_bit_share1[38](10)] ==> [\rand_bit_share1[38](10), \rand_bit_share1[38](9)] -log10(p) = 3.32305 --> OKAY
+@[\rand_bit_share1[30](1)] ==> [\rand_bit_share1[30](1)] -log10(p) = 1.97108 --> OKAY
+@[\rand_bit_share1[30](2)] ==> [\rand_bit_share1[30](2), \rand_bit_share1[30](1)] -log10(p) = 1.97108 --> OKAY
+@[\rand_bit_share1[30](3)] ==> [\rand_bit_share1[30](3), \rand_bit_share1[30](2)] -log10(p) = 1.97108 --> OKAY
+@[\rand_bit_share1[30](4)] ==> [\rand_bit_share1[30](4), \rand_bit_share1[30](3)] -log10(p) = 1.97108 --> OKAY
+@[\rand_bit_share1[30](5)] ==> [\rand_bit_share1[30](5), \rand_bit_share1[30](4)] -log10(p) = 1.97108 --> OKAY
+@[\rand_bit_share1[30](6)] ==> [\rand_bit_share1[30](6), \rand_bit_share1[30](5)] -log10(p) = 1.97108 --> OKAY
+@[\rand_bit_share1[30](7)] ==> [\rand_bit_share1[30](7), \rand_bit_share1[30](6)] -log10(p) = 1.97108 --> OKAY
+@[\rand_bit_share1[30](8)] ==> [\rand_bit_share1[30](8), \rand_bit_share1[30](7)] -log10(p) = 1.97108 --> OKAY
+@[\rand_bit_share1[30](9)] ==> [\rand_bit_share1[30](9), \rand_bit_share1[30](8)] -log10(p) = 1.97108 --> OKAY
+@[\rand_bit_share1[30](10)] ==> [\rand_bit_share1[30](10), \rand_bit_share1[30](9)] -log10(p) = 1.97108 --> OKAY
+@[\rand_bit_share0[14](1)] ==> [\rand_bit_share0[14](1)] -log10(p) = 1.82769 --> OKAY
+@[\rand_bit_share0[14](2)] ==> [\rand_bit_share0[14](2), \rand_bit_share0[14](1)] -log10(p) = 1.82769 --> OKAY
+@[\rand_bit_share0[14](3)] ==> [\rand_bit_share0[14](3), \rand_bit_share0[14](2)] -log10(p) = 1.82769 --> OKAY
+@[stage3a_share0[14](3)] ==> [stage3a_share0[14](3), stage3a_share0[14](2)] -log10(p) = 1.82769 --> OKAY
+@[\rand_bit_share0[14](4)] ==> [\rand_bit_share0[14](4), \rand_bit_share0[14](3)] -log10(p) = 1.82769 --> OKAY
+@[stage3a_share0[14](4)] ==> [stage3a_share0[14](4), stage3a_share0[14](3)] -log10(p) = 1.82769 --> OKAY
+@[\rand_bit_share0[14](5)] ==> [\rand_bit_share0[14](5), \rand_bit_share0[14](4)] -log10(p) = 1.82769 --> OKAY
+@[stage3a_share0[14](5)] ==> [stage3a_share0[14](5), stage3a_share0[14](4)] -log10(p) = 1.82769 --> OKAY
+@[\rand_bit_share0[14](6)] ==> [\rand_bit_share0[14](6), \rand_bit_share0[14](5)] -log10(p) = 1.82769 --> OKAY
+@[stage3a_share0[14](6)] ==> [stage3a_share0[14](6), stage3a_share0[14](5)] -log10(p) = 1.82769 --> OKAY
+@[\rand_bit_share0[14](7)] ==> [\rand_bit_share0[14](7), \rand_bit_share0[14](6)] -log10(p) = 1.82769 --> OKAY
+@[stage3a_share0[14](7)] ==> [stage3a_share0[14](7), stage3a_share0[14](6)] -log10(p) = 1.82769 --> OKAY
+@[\rand_bit_share0[14](8)] ==> [\rand_bit_share0[14](8), \rand_bit_share0[14](7)] -log10(p) = 1.82769 --> OKAY
+@[stage3a_share0[14](8)] ==> [stage3a_share0[14](8), stage3a_share0[14](7)] -log10(p) = 1.82769 --> OKAY
+@[\rand_bit_share0[14](9)] ==> [\rand_bit_share0[14](9), \rand_bit_share0[14](8)] -log10(p) = 1.82769 --> OKAY
+@[stage3a_share0[14](9)] ==> [stage3a_share0[14](9), stage3a_share0[14](8)] -log10(p) = 1.82769 --> OKAY
+@[\rand_bit_share0[14](10)] ==> [\rand_bit_share0[14](10), \rand_bit_share0[14](9)] -log10(p) = 1.82769 --> OKAY
+@[stage3a_share0[14](10)] ==> [stage3a_share0[14](10), stage3a_share0[14](9)] -log10(p) = 1.82769 --> OKAY
+@[\u_and_m58_d4/N2(4)] ==> [d3_t3_s1(4), stage4a_share0[23](4), d3_t3_s1(3), stage4a_share0[23](3)] -log10(p) = 1.82706 --> OKAY
+@[\u_and_m58_d4/N2(5)] ==> [d3_t3_s1(5), stage4a_share0[23](5), d3_t3_s1(4), stage4a_share0[23](4)] -log10(p) = 1.82706 --> OKAY
+@[\u_and_m58_d4/N2(6)] ==> [d3_t3_s1(6), stage4a_share0[23](6), d3_t3_s1(5), stage4a_share0[23](5)] -log10(p) = 1.82706 --> OKAY
+@[\u_and_m58_d4/N2(7)] ==> [d3_t3_s1(7), stage4a_share0[23](7), d3_t3_s1(6), stage4a_share0[23](6)] -log10(p) = 1.82706 --> OKAY
+@[\u_and_m58_d4/N2(8)] ==> [d3_t3_s1(8), stage4a_share0[23](8), d3_t3_s1(7), stage4a_share0[23](7)] -log10(p) = 1.82706 --> OKAY
+@[\u_and_m58_d4/N2(9)] ==> [d3_t3_s1(9), stage4a_share0[23](9), d3_t3_s1(8), stage4a_share0[23](8)] -log10(p) = 1.82706 --> OKAY
+@[\u_and_m58_d4/N2(10)] ==> [d3_t3_s1(10), stage4a_share0[23](10), d3_t3_s1(9), stage4a_share0[23](9)] -log10(p) = 1.82706 --> OKAY
+@[\u_and_m29_d3/N2(3)] ==> [stage3a_share0[10](3), d2_m27_s1(3), stage3a_share0[10](2), d2_m27_s1(2)] -log10(p) = 1.74986 --> OKAY
+@[\u_and_m29_d3/N2(4)] ==> [stage3a_share0[10](4), d2_m27_s1(4), stage3a_share0[10](3), d2_m27_s1(3)] -log10(p) = 1.74986 --> OKAY
+@[\u_and_m29_d3/N2(5)] ==> [stage3a_share0[10](5), d2_m27_s1(5), stage3a_share0[10](4), d2_m27_s1(4)] -log10(p) = 1.74986 --> OKAY
+@[\u_and_m29_d3/N2(6)] ==> [stage3a_share0[10](6), d2_m27_s1(6), stage3a_share0[10](5), d2_m27_s1(5)] -log10(p) = 1.74986 --> OKAY
+@[\u_and_m29_d3/N2(7)] ==> [stage3a_share0[10](7), d2_m27_s1(7), stage3a_share0[10](6), d2_m27_s1(6)] -log10(p) = 1.74986 --> OKAY
+@[\u_and_m29_d3/N2(8)] ==> [stage3a_share0[10](8), d2_m27_s1(8), stage3a_share0[10](7), d2_m27_s1(7)] -log10(p) = 1.74986 --> OKAY
+@[\u_and_m29_d3/N2(9)] ==> [stage3a_share0[10](9), d2_m27_s1(9), stage3a_share0[10](8), d2_m27_s1(8)] -log10(p) = 1.74986 --> OKAY
+@[\u_and_m29_d3/N2(10)] ==> [stage3a_share0[10](10), d2_m27_s1(10), stage3a_share0[10](9), d2_m27_s1(9)] -log10(p) = 1.74986 --> OKAY
+@[\u_and_m47_d4/N5(4)] ==> [stage4a_share0[20](4), d3_t8_s0(4), stage4a_share0[20](3), d3_t8_s0(3)] -log10(p) = 1.7172 --> OKAY
+@[\u_and_m47_d4/N5(5)] ==> [stage4a_share0[20](5), d3_t8_s0(5), stage4a_share0[20](4), d3_t8_s0(4)] -log10(p) = 1.7172 --> OKAY
+@[\u_and_m47_d4/N5(6)] ==> [stage4a_share0[20](6), d3_t8_s0(6), stage4a_share0[20](5), d3_t8_s0(5)] -log10(p) = 1.7172 --> OKAY
+@[\u_and_m47_d4/N5(7)] ==> [stage4a_share0[20](7), d3_t8_s0(7), stage4a_share0[20](6), d3_t8_s0(6)] -log10(p) = 1.7172 --> OKAY
+@[\u_and_m47_d4/N5(8)] ==> [stage4a_share0[20](8), d3_t8_s0(8), stage4a_share0[20](7), d3_t8_s0(7)] -log10(p) = 1.7172 --> OKAY
+@[\u_and_m47_d4/N5(9)] ==> [stage4a_share0[20](9), d3_t8_s0(9), stage4a_share0[20](8), d3_t8_s0(8)] -log10(p) = 1.7172 --> OKAY
+@[\u_and_m47_d4/N5(10)] ==> [stage4a_share0[20](10), d3_t8_s0(10), stage4a_share0[20](9), d3_t8_s0(9)] -log10(p) = 1.7172 --> OKAY
+@[\rand_bit_share1[34](1)] ==> [\rand_bit_share1[34](1)] -log10(p) = 1.7084 --> OKAY
+@[\rand_bit_share1[34](2)] ==> [\rand_bit_share1[34](2), \rand_bit_share1[34](1)] -log10(p) = 1.7084 --> OKAY
+@[\rand_bit_share1[34](3)] ==> [\rand_bit_share1[34](3), \rand_bit_share1[34](2)] -log10(p) = 1.7084 --> OKAY
+@[\rand_bit_share1[34](4)] ==> [\rand_bit_share1[34](4), \rand_bit_share1[34](3)] -log10(p) = 1.7084 --> OKAY
+@[\rand_bit_share1[34](5)] ==> [\rand_bit_share1[34](5), \rand_bit_share1[34](4)] -log10(p) = 1.7084 --> OKAY
+@[\rand_bit_share1[34](6)] ==> [\rand_bit_share1[34](6), \rand_bit_share1[34](5)] -log10(p) = 1.7084 --> OKAY
+@[\rand_bit_share1[34](7)] ==> [\rand_bit_share1[34](7), \rand_bit_share1[34](6)] -log10(p) = 1.7084 --> OKAY
+@[\rand_bit_share1[34](8)] ==> [\rand_bit_share1[34](8), \rand_bit_share1[34](7)] -log10(p) = 1.7084 --> OKAY
+@[\rand_bit_share1[34](9)] ==> [\rand_bit_share1[34](9), \rand_bit_share1[34](8)] -log10(p) = 1.7084 --> OKAY
+@[\rand_bit_share1[34](10)] ==> [\rand_bit_share1[34](10), \rand_bit_share1[34](9)] -log10(p) = 1.7084 --> OKAY
+@[\rand_bit_share1[49](1)] ==> [\rand_bit_share1[49](1)] -log10(p) = 1.67806 --> OKAY
+@[\rand_bit_share1[49](2)] ==> [\rand_bit_share1[49](2), \rand_bit_share1[49](1)] -log10(p) = 1.67806 --> OKAY
+@[\rand_bit_share1[49](3)] ==> [\rand_bit_share1[49](3), \rand_bit_share1[49](2)] -log10(p) = 1.67806 --> OKAY
+@[\rand_bit_share1[49](4)] ==> [\rand_bit_share1[49](4), \rand_bit_share1[49](3)] -log10(p) = 1.67806 --> OKAY
+@[\rand_bit_share1[49](5)] ==> [\rand_bit_share1[49](5), \rand_bit_share1[49](4)] -log10(p) = 1.67806 --> OKAY
+@[\rand_bit_share1[49](6)] ==> [\rand_bit_share1[49](6), \rand_bit_share1[49](5)] -log10(p) = 1.67806 --> OKAY
+@[\rand_bit_share1[49](7)] ==> [\rand_bit_share1[49](7), \rand_bit_share1[49](6)] -log10(p) = 1.67806 --> OKAY
+@[\rand_bit_share1[49](8)] ==> [\rand_bit_share1[49](8), \rand_bit_share1[49](7)] -log10(p) = 1.67806 --> OKAY
+@[\rand_bit_share1[49](9)] ==> [\rand_bit_share1[49](9), \rand_bit_share1[49](8)] -log10(p) = 1.67806 --> OKAY
+@[\rand_bit_share1[49](10)] ==> [\rand_bit_share1[49](10), \rand_bit_share1[49](9)] -log10(p) = 1.67806 --> OKAY
+@[\rand_bit_share1[24](1)] ==> [\rand_bit_share1[24](1)] -log10(p) = 1.63053 --> OKAY
+@[\rand_bit_share1[24](2)] ==> [\rand_bit_share1[24](2), \rand_bit_share1[24](1)] -log10(p) = 1.63053 --> OKAY
+@[\rand_bit_share1[24](3)] ==> [\rand_bit_share1[24](3), \rand_bit_share1[24](2)] -log10(p) = 1.63053 --> OKAY
+@[\rand_bit_share1[24](4)] ==> [\rand_bit_share1[24](4), \rand_bit_share1[24](3)] -log10(p) = 1.63053 --> OKAY
+@[\rand_bit_share1[24](5)] ==> [\rand_bit_share1[24](5), \rand_bit_share1[24](4)] -log10(p) = 1.63053 --> OKAY
+@[\rand_bit_share1[24](6)] ==> [\rand_bit_share1[24](6), \rand_bit_share1[24](5)] -log10(p) = 1.63053 --> OKAY
+@[\rand_bit_share1[24](7)] ==> [\rand_bit_share1[24](7), \rand_bit_share1[24](6)] -log10(p) = 1.63053 --> OKAY
+@[\rand_bit_share1[24](8)] ==> [\rand_bit_share1[24](8), \rand_bit_share1[24](7)] -log10(p) = 1.63053 --> OKAY
+@[\rand_bit_share1[24](9)] ==> [\rand_bit_share1[24](9), \rand_bit_share1[24](8)] -log10(p) = 1.63053 --> OKAY
+@[\rand_bit_share1[24](10)] ==> [\rand_bit_share1[24](10), \rand_bit_share1[24](9)] -log10(p) = 1.63053 --> OKAY
+@[\u_and_m46_d4/N0(4)] ==> [\u_and_m35_d3/t0(4), \u_and_m35_d3/t1(4), \u_and_m35_d3/t2(4), \u_and_m35_d3/t3(4), \u_and_m30_d3/t0(4), \u_and_m30_d3/t1(4), \u_and_m30_d3/t2(4), \u_and_m30_d3/t3(4), d3_m36_s0(4), d3_m23_s0(4), d3_t6_s0(4), \u_and_m35_d3/t0(3), \u_and_m35_d3/t1(3), \u_and_m35_d3/t2(3), \u_and_m35_d3/t3(3), \u_and_m30_d3/t0(3), \u_and_m30_d3/t1(3), \u_and_m30_d3/t2(3), \u_and_m30_d3/t3(3), d3_m36_s0(3), d3_m23_s0(3), d3_t6_s0(3)] -log10(p) = 1.61095 --> OKAY
+@[\u_and_m46_d4/N0(5)] ==> [\u_and_m35_d3/t0(5), \u_and_m35_d3/t1(5), \u_and_m35_d3/t2(5), \u_and_m35_d3/t3(5), \u_and_m30_d3/t0(5), \u_and_m30_d3/t1(5), \u_and_m30_d3/t2(5), \u_and_m30_d3/t3(5), d3_m36_s0(5), d3_m23_s0(5), d3_t6_s0(5), \u_and_m35_d3/t0(4), \u_and_m35_d3/t1(4), \u_and_m35_d3/t2(4), \u_and_m35_d3/t3(4), \u_and_m30_d3/t0(4), \u_and_m30_d3/t1(4), \u_and_m30_d3/t2(4), \u_and_m30_d3/t3(4), d3_m36_s0(4), d3_m23_s0(4), d3_t6_s0(4)] -log10(p) = 1.61095 --> OKAY
+@[\u_and_m46_d4/N0(6)] ==> [\u_and_m35_d3/t0(6), \u_and_m35_d3/t1(6), \u_and_m35_d3/t2(6), \u_and_m35_d3/t3(6), \u_and_m30_d3/t0(6), \u_and_m30_d3/t1(6), \u_and_m30_d3/t2(6), \u_and_m30_d3/t3(6), d3_m36_s0(6), d3_m23_s0(6), d3_t6_s0(6), \u_and_m35_d3/t0(5), \u_and_m35_d3/t1(5), \u_and_m35_d3/t2(5), \u_and_m35_d3/t3(5), \u_and_m30_d3/t0(5), \u_and_m30_d3/t1(5), \u_and_m30_d3/t2(5), \u_and_m30_d3/t3(5), d3_m36_s0(5), d3_m23_s0(5), d3_t6_s0(5)] -log10(p) = 1.61095 --> OKAY
+@[\u_and_m46_d4/N0(7)] ==> [\u_and_m35_d3/t0(7), \u_and_m35_d3/t1(7), \u_and_m35_d3/t2(7), \u_and_m35_d3/t3(7), \u_and_m30_d3/t0(7), \u_and_m30_d3/t1(7), \u_and_m30_d3/t2(7), \u_and_m30_d3/t3(7), d3_m36_s0(7), d3_m23_s0(7), d3_t6_s0(7), \u_and_m35_d3/t0(6), \u_and_m35_d3/t1(6), \u_and_m35_d3/t2(6), \u_and_m35_d3/t3(6), \u_and_m30_d3/t0(6), \u_and_m30_d3/t1(6), \u_and_m30_d3/t2(6), \u_and_m30_d3/t3(6), d3_m36_s0(6), d3_m23_s0(6), d3_t6_s0(6)] -log10(p) = 1.61095 --> OKAY
+@[\u_and_m46_d4/N0(8)] ==> [\u_and_m35_d3/t0(8), \u_and_m35_d3/t1(8), \u_and_m35_d3/t2(8), \u_and_m35_d3/t3(8), \u_and_m30_d3/t0(8), \u_and_m30_d3/t1(8), \u_and_m30_d3/t2(8), \u_and_m30_d3/t3(8), d3_m36_s0(8), d3_m23_s0(8), d3_t6_s0(8), \u_and_m35_d3/t0(7), \u_and_m35_d3/t1(7), \u_and_m35_d3/t2(7), \u_and_m35_d3/t3(7), \u_and_m30_d3/t0(7), \u_and_m30_d3/t1(7), \u_and_m30_d3/t2(7), \u_and_m30_d3/t3(7), d3_m36_s0(7), d3_m23_s0(7), d3_t6_s0(7)] -log10(p) = 1.61095 --> OKAY
+@[\u_and_m46_d4/N0(9)] ==> [\u_and_m35_d3/t0(9), \u_and_m35_d3/t1(9), \u_and_m35_d3/t2(9), \u_and_m35_d3/t3(9), \u_and_m30_d3/t0(9), \u_and_m30_d3/t1(9), \u_and_m30_d3/t2(9), \u_and_m30_d3/t3(9), d3_m36_s0(9), d3_m23_s0(9), d3_t6_s0(9), \u_and_m35_d3/t0(8), \u_and_m35_d3/t1(8), \u_and_m35_d3/t2(8), \u_and_m35_d3/t3(8), \u_and_m30_d3/t0(8), \u_and_m30_d3/t1(8), \u_and_m30_d3/t2(8), \u_and_m30_d3/t3(8), d3_m36_s0(8), d3_m23_s0(8), d3_t6_s0(8)] -log10(p) = 1.61095 --> OKAY
+@[\u_and_m46_d4/N0(10)] ==> [\u_and_m35_d3/t0(10), \u_and_m35_d3/t1(10), \u_and_m35_d3/t2(10), \u_and_m35_d3/t3(10), \u_and_m30_d3/t0(10), \u_and_m30_d3/t1(10), \u_and_m30_d3/t2(10), \u_and_m30_d3/t3(10), d3_m36_s0(10), d3_m23_s0(10), d3_t6_s0(10), \u_and_m35_d3/t0(9), \u_and_m35_d3/t1(9), \u_and_m35_d3/t2(9), \u_and_m35_d3/t3(9), \u_and_m30_d3/t0(9), \u_and_m30_d3/t1(9), \u_and_m30_d3/t2(9), \u_and_m30_d3/t3(9), d3_m36_s0(9), d3_m23_s0(9), d3_t6_s0(9)] -log10(p) = 1.61095 --> OKAY
+@[\rand_bit_share1[20](1)] ==> [\rand_bit_share1[20](1)] -log10(p) = 1.48731 --> OKAY
+@[\rand_bit_share1[20](2)] ==> [\rand_bit_share1[20](2), \rand_bit_share1[20](1)] -log10(p) = 1.48731 --> OKAY
+@[\rand_bit_share1[20](3)] ==> [\rand_bit_share1[20](3), \rand_bit_share1[20](2)] -log10(p) = 1.48731 --> OKAY
+@[\rand_bit_share1[20](4)] ==> [\rand_bit_share1[20](4), \rand_bit_share1[20](3)] -log10(p) = 1.48731 --> OKAY
+@[\rand_bit_share1[20](5)] ==> [\rand_bit_share1[20](5), \rand_bit_share1[20](4)] -log10(p) = 1.48731 --> OKAY
+@[\rand_bit_share1[20](6)] ==> [\rand_bit_share1[20](6), \rand_bit_share1[20](5)] -log10(p) = 1.48731 --> OKAY
+@[\rand_bit_share1[20](7)] ==> [\rand_bit_share1[20](7), \rand_bit_share1[20](6)] -log10(p) = 1.48731 --> OKAY
+@[\rand_bit_share1[20](8)] ==> [\rand_bit_share1[20](8), \rand_bit_share1[20](7)] -log10(p) = 1.48731 --> OKAY
+@[\rand_bit_share1[20](9)] ==> [\rand_bit_share1[20](9), \rand_bit_share1[20](8)] -log10(p) = 1.48731 --> OKAY
+@[\rand_bit_share1[20](10)] ==> [\rand_bit_share1[20](10), \rand_bit_share1[20](9)] -log10(p) = 1.48731 --> OKAY
+@[\rand_bit_share0[21](1)] ==> [\rand_bit_share0[21](1)] -log10(p) = 1.46659 --> OKAY
+@[\rand_bit_share0[21](2)] ==> [\rand_bit_share0[21](2), \rand_bit_share0[21](1)] -log10(p) = 1.46659 --> OKAY
+@[stage2a_share0[21](2)] ==> [stage2a_share0[21](2), stage2a_share0[21](1)] -log10(p) = 1.46659 --> OKAY
+@[\rand_bit_share0[21](3)] ==> [\rand_bit_share0[21](3), \rand_bit_share0[21](2)] -log10(p) = 1.46659 --> OKAY
+@[stage2a_share0[21](3)] ==> [stage2a_share0[21](3), stage2a_share0[21](2)] -log10(p) = 1.46659 --> OKAY
+@[stage3a_share0[21](3)] ==> [stage3a_share0[21](3), stage3a_share0[21](2)] -log10(p) = 1.46659 --> OKAY
+@[\rand_bit_share0[21](4)] ==> [\rand_bit_share0[21](4), \rand_bit_share0[21](3)] -log10(p) = 1.46659 --> OKAY
+@[stage2a_share0[21](4)] ==> [stage2a_share0[21](4), stage2a_share0[21](3)] -log10(p) = 1.46659 --> OKAY
+@[stage3a_share0[21](4)] ==> [stage3a_share0[21](4), stage3a_share0[21](3)] -log10(p) = 1.46659 --> OKAY
+@[\rand_bit_share0[21](5)] ==> [\rand_bit_share0[21](5), \rand_bit_share0[21](4)] -log10(p) = 1.46659 --> OKAY
+@[stage2a_share0[21](5)] ==> [stage2a_share0[21](5), stage2a_share0[21](4)] -log10(p) = 1.46659 --> OKAY
+@[stage3a_share0[21](5)] ==> [stage3a_share0[21](5), stage3a_share0[21](4)] -log10(p) = 1.46659 --> OKAY
+@[\rand_bit_share0[21](6)] ==> [\rand_bit_share0[21](6), \rand_bit_share0[21](5)] -log10(p) = 1.46659 --> OKAY
+@[stage2a_share0[21](6)] ==> [stage2a_share0[21](6), stage2a_share0[21](5)] -log10(p) = 1.46659 --> OKAY
+@[stage3a_share0[21](6)] ==> [stage3a_share0[21](6), stage3a_share0[21](5)] -log10(p) = 1.46659 --> OKAY
+@[\rand_bit_share0[21](7)] ==> [\rand_bit_share0[21](7), \rand_bit_share0[21](6)] -log10(p) = 1.46659 --> OKAY
+@[stage2a_share0[21](7)] ==> [stage2a_share0[21](7), stage2a_share0[21](6)] -log10(p) = 1.46659 --> OKAY
+@[stage3a_share0[21](7)] ==> [stage3a_share0[21](7), stage3a_share0[21](6)] -log10(p) = 1.46659 --> OKAY
+@[\rand_bit_share0[21](8)] ==> [\rand_bit_share0[21](8), \rand_bit_share0[21](7)] -log10(p) = 1.46659 --> OKAY
+@[stage2a_share0[21](8)] ==> [stage2a_share0[21](8), stage2a_share0[21](7)] -log10(p) = 1.46659 --> OKAY
+@[stage3a_share0[21](8)] ==> [stage3a_share0[21](8), stage3a_share0[21](7)] -log10(p) = 1.46659 --> OKAY
+@[\rand_bit_share0[21](9)] ==> [\rand_bit_share0[21](9), \rand_bit_share0[21](8)] -log10(p) = 1.46659 --> OKAY
+@[stage2a_share0[21](9)] ==> [stage2a_share0[21](9), stage2a_share0[21](8)] -log10(p) = 1.46659 --> OKAY
+@[stage3a_share0[21](9)] ==> [stage3a_share0[21](9), stage3a_share0[21](8)] -log10(p) = 1.46659 --> OKAY
+@[\rand_bit_share0[21](10)] ==> [\rand_bit_share0[21](10), \rand_bit_share0[21](9)] -log10(p) = 1.46659 --> OKAY
+@[stage2a_share0[21](10)] ==> [stage2a_share0[21](10), stage2a_share0[21](9)] -log10(p) = 1.46659 --> OKAY
+@[stage3a_share0[21](10)] ==> [stage3a_share0[21](10), stage3a_share0[21](9)] -log10(p) = 1.46659 --> OKAY
+@[\rand_bit_share0[18](1)] ==> [\rand_bit_share0[18](1)] -log10(p) = 1.41944 --> OKAY
+@[\rand_bit_share0[18](2)] ==> [\rand_bit_share0[18](2), \rand_bit_share0[18](1)] -log10(p) = 1.41944 --> OKAY
+@[stage2a_share0[18](2)] ==> [stage2a_share0[18](2), stage2a_share0[18](1)] -log10(p) = 1.41944 --> OKAY
+@[\rand_bit_share0[18](3)] ==> [\rand_bit_share0[18](3), \rand_bit_share0[18](2)] -log10(p) = 1.41944 --> OKAY
+@[stage2a_share0[18](3)] ==> [stage2a_share0[18](3), stage2a_share0[18](2)] -log10(p) = 1.41944 --> OKAY
+@[stage3a_share0[18](3)] ==> [stage3a_share0[18](3), stage3a_share0[18](2)] -log10(p) = 1.41944 --> OKAY
+@[\rand_bit_share0[18](4)] ==> [\rand_bit_share0[18](4), \rand_bit_share0[18](3)] -log10(p) = 1.41944 --> OKAY
+@[stage2a_share0[18](4)] ==> [stage2a_share0[18](4), stage2a_share0[18](3)] -log10(p) = 1.41944 --> OKAY
+@[stage3a_share0[18](4)] ==> [stage3a_share0[18](4), stage3a_share0[18](3)] -log10(p) = 1.41944 --> OKAY
+@[\rand_bit_share0[18](5)] ==> [\rand_bit_share0[18](5), \rand_bit_share0[18](4)] -log10(p) = 1.41944 --> OKAY
+@[stage2a_share0[18](5)] ==> [stage2a_share0[18](5), stage2a_share0[18](4)] -log10(p) = 1.41944 --> OKAY
+@[stage3a_share0[18](5)] ==> [stage3a_share0[18](5), stage3a_share0[18](4)] -log10(p) = 1.41944 --> OKAY
+@[\rand_bit_share0[18](6)] ==> [\rand_bit_share0[18](6), \rand_bit_share0[18](5)] -log10(p) = 1.41944 --> OKAY
+@[stage2a_share0[18](6)] ==> [stage2a_share0[18](6), stage2a_share0[18](5)] -log10(p) = 1.41944 --> OKAY
+@[stage3a_share0[18](6)] ==> [stage3a_share0[18](6), stage3a_share0[18](5)] -log10(p) = 1.41944 --> OKAY
+@[\rand_bit_share0[18](7)] ==> [\rand_bit_share0[18](7), \rand_bit_share0[18](6)] -log10(p) = 1.41944 --> OKAY
+@[stage2a_share0[18](7)] ==> [stage2a_share0[18](7), stage2a_share0[18](6)] -log10(p) = 1.41944 --> OKAY
+@[stage3a_share0[18](7)] ==> [stage3a_share0[18](7), stage3a_share0[18](6)] -log10(p) = 1.41944 --> OKAY
+@[\rand_bit_share0[18](8)] ==> [\rand_bit_share0[18](8), \rand_bit_share0[18](7)] -log10(p) = 1.41944 --> OKAY
+@[stage2a_share0[18](8)] ==> [stage2a_share0[18](8), stage2a_share0[18](7)] -log10(p) = 1.41944 --> OKAY
+@[stage3a_share0[18](8)] ==> [stage3a_share0[18](8), stage3a_share0[18](7)] -log10(p) = 1.41944 --> OKAY
+@[\rand_bit_share0[18](9)] ==> [\rand_bit_share0[18](9), \rand_bit_share0[18](8)] -log10(p) = 1.41944 --> OKAY
+@[stage2a_share0[18](9)] ==> [stage2a_share0[18](9), stage2a_share0[18](8)] -log10(p) = 1.41944 --> OKAY
+@[stage3a_share0[18](9)] ==> [stage3a_share0[18](9), stage3a_share0[18](8)] -log10(p) = 1.41944 --> OKAY
+@[\rand_bit_share0[18](10)] ==> [\rand_bit_share0[18](10), \rand_bit_share0[18](9)] -log10(p) = 1.41944 --> OKAY
+@[stage2a_share0[18](10)] ==> [stage2a_share0[18](10), stage2a_share0[18](9)] -log10(p) = 1.41944 --> OKAY
+@[stage3a_share0[18](10)] ==> [stage3a_share0[18](10), stage3a_share0[18](9)] -log10(p) = 1.41944 --> OKAY
+@[\rand_bit_share1[43](1)] ==> [\rand_bit_share1[43](1)] -log10(p) = 1.3797 --> OKAY
+@[\rand_bit_share1[43](2)] ==> [\rand_bit_share1[43](2), \rand_bit_share1[43](1)] -log10(p) = 1.3797 --> OKAY
+@[\rand_bit_share1[43](3)] ==> [\rand_bit_share1[43](3), \rand_bit_share1[43](2)] -log10(p) = 1.3797 --> OKAY
+@[\rand_bit_share1[43](4)] ==> [\rand_bit_share1[43](4), \rand_bit_share1[43](3)] -log10(p) = 1.3797 --> OKAY
+@[\rand_bit_share1[43](5)] ==> [\rand_bit_share1[43](5), \rand_bit_share1[43](4)] -log10(p) = 1.3797 --> OKAY
+@[\rand_bit_share1[43](6)] ==> [\rand_bit_share1[43](6), \rand_bit_share1[43](5)] -log10(p) = 1.3797 --> OKAY
+@[\rand_bit_share1[43](7)] ==> [\rand_bit_share1[43](7), \rand_bit_share1[43](6)] -log10(p) = 1.3797 --> OKAY
+@[\rand_bit_share1[43](8)] ==> [\rand_bit_share1[43](8), \rand_bit_share1[43](7)] -log10(p) = 1.3797 --> OKAY
+@[\rand_bit_share1[43](9)] ==> [\rand_bit_share1[43](9), \rand_bit_share1[43](8)] -log10(p) = 1.3797 --> OKAY
+@[\rand_bit_share1[43](10)] ==> [\rand_bit_share1[43](10), \rand_bit_share1[43](9)] -log10(p) = 1.3797 --> OKAY
+@[\u_and_m4_d1/N1(1)] ==> [\rand_bit_share0[28](1), \rand_bit_share0[2](1), \share0_in[0](1), \share0_in[5](1), \share0_in[4](1), \share0_in[6](1)] -log10(p) = 1.36556 --> OKAY
+@[\u_and_m4_d1/N1(2)] ==> [\rand_bit_share0[28](2), \rand_bit_share0[2](2), \share0_in[0](2), \share0_in[5](2), \share0_in[4](2), \share0_in[6](2), \rand_bit_share0[28](1), \rand_bit_share0[2](1), \share0_in[0](1), \share0_in[5](1), \share0_in[4](1), \share0_in[6](1)] -log10(p) = 1.36556 --> OKAY
+@[\u_and_m4_d1/N1(3)] ==> [\rand_bit_share0[28](3), \rand_bit_share0[2](3), \share0_in[0](3), \share0_in[5](3), \share0_in[4](3), \share0_in[6](3), \rand_bit_share0[28](2), \rand_bit_share0[2](2), \share0_in[0](2), \share0_in[5](2), \share0_in[4](2), \share0_in[6](2)] -log10(p) = 1.36556 --> OKAY
+@[\u_and_m4_d1/N1(4)] ==> [\rand_bit_share0[28](4), \rand_bit_share0[2](4), \share0_in[0](4), \share0_in[5](4), \share0_in[4](4), \share0_in[6](4), \rand_bit_share0[28](3), \rand_bit_share0[2](3), \share0_in[0](3), \share0_in[5](3), \share0_in[4](3), \share0_in[6](3)] -log10(p) = 1.36556 --> OKAY
+@[\u_and_m4_d1/N1(5)] ==> [\rand_bit_share0[28](5), \rand_bit_share0[2](5), \share0_in[0](5), \share0_in[5](5), \share0_in[4](5), \share0_in[6](5), \rand_bit_share0[28](4), \rand_bit_share0[2](4), \share0_in[0](4), \share0_in[5](4), \share0_in[4](4), \share0_in[6](4)] -log10(p) = 1.36556 --> OKAY
+@[\u_and_m4_d1/N1(6)] ==> [\rand_bit_share0[28](6), \rand_bit_share0[2](6), \share0_in[0](6), \share0_in[5](6), \share0_in[4](6), \share0_in[6](6), \rand_bit_share0[28](5), \rand_bit_share0[2](5), \share0_in[0](5), \share0_in[5](5), \share0_in[4](5), \share0_in[6](5)] -log10(p) = 1.36556 --> OKAY
+@[\u_and_m4_d1/N1(7)] ==> [\rand_bit_share0[28](7), \rand_bit_share0[2](7), \share0_in[0](7), \share0_in[5](7), \share0_in[4](7), \share0_in[6](7), \rand_bit_share0[28](6), \rand_bit_share0[2](6), \share0_in[0](6), \share0_in[5](6), \share0_in[4](6), \share0_in[6](6)] -log10(p) = 1.36556 --> OKAY
+@[\u_and_m4_d1/N1(8)] ==> [\rand_bit_share0[28](8), \rand_bit_share0[2](8), \share0_in[0](8), \share0_in[5](8), \share0_in[4](8), \share0_in[6](8), \rand_bit_share0[28](7), \rand_bit_share0[2](7), \share0_in[0](7), \share0_in[5](7), \share0_in[4](7), \share0_in[6](7)] -log10(p) = 1.36556 --> OKAY
+@[\u_and_m4_d1/N1(9)] ==> [\rand_bit_share0[28](9), \rand_bit_share0[2](9), \share0_in[0](9), \share0_in[5](9), \share0_in[4](9), \share0_in[6](9), \rand_bit_share0[28](8), \rand_bit_share0[2](8), \share0_in[0](8), \share0_in[5](8), \share0_in[4](8), \share0_in[6](8)] -log10(p) = 1.36556 --> OKAY
+@[\u_and_m4_d1/N1(10)] ==> [\rand_bit_share0[28](10), \rand_bit_share0[2](10), \share0_in[0](10), \share0_in[5](10), \share0_in[4](10), \share0_in[6](10), \rand_bit_share0[28](9), \rand_bit_share0[2](9), \share0_in[0](9), \share0_in[5](9), \share0_in[4](9), \share0_in[6](9)] -log10(p) = 1.36556 --> OKAY
+@[\u_and_m14_d1/N1(1)] ==> [\rand_bit_share0[34](1), \rand_bit_share0[8](1), \share0_in[2](1), \share0_in[7](1)] -log10(p) = 1.30935 --> OKAY
+@[\u_and_m14_d1/N1(2)] ==> [\rand_bit_share0[34](2), \rand_bit_share0[8](2), \share0_in[2](2), \share0_in[7](2), \rand_bit_share0[34](1), \rand_bit_share0[8](1), \share0_in[2](1), \share0_in[7](1)] -log10(p) = 1.30935 --> OKAY
+@[\u_and_m14_d1/N1(3)] ==> [\rand_bit_share0[34](3), \rand_bit_share0[8](3), \share0_in[2](3), \share0_in[7](3), \rand_bit_share0[34](2), \rand_bit_share0[8](2), \share0_in[2](2), \share0_in[7](2)] -log10(p) = 1.30935 --> OKAY
+@[\u_and_m14_d1/N1(4)] ==> [\rand_bit_share0[34](4), \rand_bit_share0[8](4), \share0_in[2](4), \share0_in[7](4), \rand_bit_share0[34](3), \rand_bit_share0[8](3), \share0_in[2](3), \share0_in[7](3)] -log10(p) = 1.30935 --> OKAY
+@[\u_and_m14_d1/N1(5)] ==> [\rand_bit_share0[34](5), \rand_bit_share0[8](5), \share0_in[2](5), \share0_in[7](5), \rand_bit_share0[34](4), \rand_bit_share0[8](4), \share0_in[2](4), \share0_in[7](4)] -log10(p) = 1.30935 --> OKAY
+@[\u_and_m14_d1/N1(6)] ==> [\rand_bit_share0[34](6), \rand_bit_share0[8](6), \share0_in[2](6), \share0_in[7](6), \rand_bit_share0[34](5), \rand_bit_share0[8](5), \share0_in[2](5), \share0_in[7](5)] -log10(p) = 1.30935 --> OKAY
+@[\u_and_m14_d1/N1(7)] ==> [\rand_bit_share0[34](7), \rand_bit_share0[8](7), \share0_in[2](7), \share0_in[7](7), \rand_bit_share0[34](6), \rand_bit_share0[8](6), \share0_in[2](6), \share0_in[7](6)] -log10(p) = 1.30935 --> OKAY
+@[\u_and_m14_d1/N1(8)] ==> [\rand_bit_share0[34](8), \rand_bit_share0[8](8), \share0_in[2](8), \share0_in[7](8), \rand_bit_share0[34](7), \rand_bit_share0[8](7), \share0_in[2](7), \share0_in[7](7)] -log10(p) = 1.30935 --> OKAY
+@[\u_and_m14_d1/N1(9)] ==> [\rand_bit_share0[34](9), \rand_bit_share0[8](9), \share0_in[2](9), \share0_in[7](9), \rand_bit_share0[34](8), \rand_bit_share0[8](8), \share0_in[2](8), \share0_in[7](8)] -log10(p) = 1.30935 --> OKAY
+@[\u_and_m14_d1/N1(10)] ==> [\rand_bit_share0[34](10), \rand_bit_share0[8](10), \share0_in[2](10), \share0_in[7](10), \rand_bit_share0[34](9), \rand_bit_share0[8](9), \share0_in[2](9), \share0_in[7](9)] -log10(p) = 1.30935 --> OKAY
+@[\u_and_m46_d4/N4(4)] ==> [stage4b_share0[14](4), \u_and_m35_d3/t4(4), \u_and_m35_d3/t5(4), \u_and_m35_d3/t6(4), \u_and_m35_d3/t7(4), \u_and_m30_d3/t4(4), \u_and_m30_d3/t5(4), \u_and_m30_d3/t6(4), \u_and_m30_d3/t7(4), d3_m36_s1(4), d3_m23_s1(4), stage4a_share0[14](4), stage4b_share0[14](3), \u_and_m35_d3/t4(3), \u_and_m35_d3/t5(3), \u_and_m35_d3/t6(3), \u_and_m35_d3/t7(3), \u_and_m30_d3/t4(3), \u_and_m30_d3/t5(3), \u_and_m30_d3/t6(3), \u_and_m30_d3/t7(3), d3_m36_s1(3), d3_m23_s1(3), stage4a_share0[14](3)] -log10(p) = 1.30766 --> OKAY
+@[\u_and_m46_d4/N4(5)] ==> [stage4b_share0[14](5), \u_and_m35_d3/t4(5), \u_and_m35_d3/t5(5), \u_and_m35_d3/t6(5), \u_and_m35_d3/t7(5), \u_and_m30_d3/t4(5), \u_and_m30_d3/t5(5), \u_and_m30_d3/t6(5), \u_and_m30_d3/t7(5), d3_m36_s1(5), d3_m23_s1(5), stage4a_share0[14](5), stage4b_share0[14](4), \u_and_m35_d3/t4(4), \u_and_m35_d3/t5(4), \u_and_m35_d3/t6(4), \u_and_m35_d3/t7(4), \u_and_m30_d3/t4(4), \u_and_m30_d3/t5(4), \u_and_m30_d3/t6(4), \u_and_m30_d3/t7(4), d3_m36_s1(4), d3_m23_s1(4), stage4a_share0[14](4)] -log10(p) = 1.30766 --> OKAY
+@[\u_and_m46_d4/N4(6)] ==> [stage4b_share0[14](6), \u_and_m35_d3/t4(6), \u_and_m35_d3/t5(6), \u_and_m35_d3/t6(6), \u_and_m35_d3/t7(6), \u_and_m30_d3/t4(6), \u_and_m30_d3/t5(6), \u_and_m30_d3/t6(6), \u_and_m30_d3/t7(6), d3_m36_s1(6), d3_m23_s1(6), stage4a_share0[14](6), stage4b_share0[14](5), \u_and_m35_d3/t4(5), \u_and_m35_d3/t5(5), \u_and_m35_d3/t6(5), \u_and_m35_d3/t7(5), \u_and_m30_d3/t4(5), \u_and_m30_d3/t5(5), \u_and_m30_d3/t6(5), \u_and_m30_d3/t7(5), d3_m36_s1(5), d3_m23_s1(5), stage4a_share0[14](5)] -log10(p) = 1.30766 --> OKAY
+@[\u_and_m46_d4/N4(7)] ==> [stage4b_share0[14](7), \u_and_m35_d3/t4(7), \u_and_m35_d3/t5(7), \u_and_m35_d3/t6(7), \u_and_m35_d3/t7(7), \u_and_m30_d3/t4(7), \u_and_m30_d3/t5(7), \u_and_m30_d3/t6(7), \u_and_m30_d3/t7(7), d3_m36_s1(7), d3_m23_s1(7), stage4a_share0[14](7), stage4b_share0[14](6), \u_and_m35_d3/t4(6), \u_and_m35_d3/t5(6), \u_and_m35_d3/t6(6), \u_and_m35_d3/t7(6), \u_and_m30_d3/t4(6), \u_and_m30_d3/t5(6), \u_and_m30_d3/t6(6), \u_and_m30_d3/t7(6), d3_m36_s1(6), d3_m23_s1(6), stage4a_share0[14](6)] -log10(p) = 1.30766 --> OKAY
+@[\u_and_m46_d4/N4(8)] ==> [stage4b_share0[14](8), \u_and_m35_d3/t4(8), \u_and_m35_d3/t5(8), \u_and_m35_d3/t6(8), \u_and_m35_d3/t7(8), \u_and_m30_d3/t4(8), \u_and_m30_d3/t5(8), \u_and_m30_d3/t6(8), \u_and_m30_d3/t7(8), d3_m36_s1(8), d3_m23_s1(8), stage4a_share0[14](8), stage4b_share0[14](7), \u_and_m35_d3/t4(7), \u_and_m35_d3/t5(7), \u_and_m35_d3/t6(7), \u_and_m35_d3/t7(7), \u_and_m30_d3/t4(7), \u_and_m30_d3/t5(7), \u_and_m30_d3/t6(7), \u_and_m30_d3/t7(7), d3_m36_s1(7), d3_m23_s1(7), stage4a_share0[14](7)] -log10(p) = 1.30766 --> OKAY
+@[\u_and_m46_d4/N4(9)] ==> [stage4b_share0[14](9), \u_and_m35_d3/t4(9), \u_and_m35_d3/t5(9), \u_and_m35_d3/t6(9), \u_and_m35_d3/t7(9), \u_and_m30_d3/t4(9), \u_and_m30_d3/t5(9), \u_and_m30_d3/t6(9), \u_and_m30_d3/t7(9), d3_m36_s1(9), d3_m23_s1(9), stage4a_share0[14](9), stage4b_share0[14](8), \u_and_m35_d3/t4(8), \u_and_m35_d3/t5(8), \u_and_m35_d3/t6(8), \u_and_m35_d3/t7(8), \u_and_m30_d3/t4(8), \u_and_m30_d3/t5(8), \u_and_m30_d3/t6(8), \u_and_m30_d3/t7(8), d3_m36_s1(8), d3_m23_s1(8), stage4a_share0[14](8)] -log10(p) = 1.30766 --> OKAY
+@[\u_and_m46_d4/N4(10)] ==> [stage4b_share0[14](10), \u_and_m35_d3/t4(10), \u_and_m35_d3/t5(10), \u_and_m35_d3/t6(10), \u_and_m35_d3/t7(10), \u_and_m30_d3/t4(10), \u_and_m30_d3/t5(10), \u_and_m30_d3/t6(10), \u_and_m30_d3/t7(10), d3_m36_s1(10), d3_m23_s1(10), stage4a_share0[14](10), stage4b_share0[14](9), \u_and_m35_d3/t4(9), \u_and_m35_d3/t5(9), \u_and_m35_d3/t6(9), \u_and_m35_d3/t7(9), \u_and_m30_d3/t4(9), \u_and_m30_d3/t5(9), \u_and_m30_d3/t6(9), \u_and_m30_d3/t7(9), d3_m36_s1(9), d3_m23_s1(9), stage4a_share0[14](9)] -log10(p) = 1.30766 --> OKAY
+@[\rand_bit_share0[10](1)] ==> [\rand_bit_share0[10](1)] -log10(p) = 1.30118 --> OKAY
+@[\rand_bit_share0[10](2)] ==> [\rand_bit_share0[10](2), \rand_bit_share0[10](1)] -log10(p) = 1.30118 --> OKAY

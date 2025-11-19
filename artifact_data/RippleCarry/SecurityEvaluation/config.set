@@ -1,0 +1,84 @@
+max_no_of_threads
+24
+
+no_of_groups % number of groups to conduct the test, e.g., fixed vs. fixed, fixed vs. random, etc.
+2
+
+284'h$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+284'hD2A703E73A57E24DE4C0763E33805A873C529C3C2F0D4A86D6D000ED584BEE18E8D5CE5
+
+clock_signal_name    % name of the clock signal
+clk
+
+max_clock_cycle   % maximum number of clock cycles per run before checking the end_condition
+37
+
+no_of_initial_inputs   % number of primary inputs during the initialization
+4
+
+no_of_initial_clock_cycles   % number of clock cycles to initiate the run (start of encryption)
+1
+
+
+[63:0] \share0_in group_in0[63:0]
+[63:0] \share1_in group_in1[63:0]
+[2:0] \rand_bit_share0 group_in0[66:64]
+[2:0] \rand_bit_share1 group_in1[66:64]
+
+
+
+
+
+no_of_always_random_inputs
+0
+
+
+end_condition    
+ClockCycles 37
+
+end_wait_cycles   % number of clock cycles to wait after the end_condition 
+0
+
+order_of_test
+1
+
+multivariate_test
+no
+
+transitional_leakage
+yes
+
+compact_distributions
+yes % Compact Mode
+
+
+
+no_of_simulations
+200000000
+
+no_of_step_simulations
+200000
+
+no_of_entries_in_report
+200
+
+no_of_step_write_results
+1000000
+
+
+probes_include
+all
+
+probes_exclude
+0
+
+no_of_outputs
+2
+
+[31:0] \o_share0
+[31:0] \o_share1
+
+expected_output
+
+32'h$$$$$$$$
+32'h64121BC6

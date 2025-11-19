@@ -1,0 +1,32 @@
+{
+  "num_nodes": 34,
+  "num_edges": 513,
+  "max_possible_edges": 561,
+  "density": 0.9144385026737968,
+  "num_colors_used": 26,
+  "total_input_cliques": 109,
+  "max_input_clique_size": 26,
+  "avg_input_clique_size": 11.18348623853211,
+  "input_clique_size_distribution": {
+    "1": 11,
+    "2": 7,
+    "4": 9,
+    "6": 4,
+    "7": 1,
+    "8": 2,
+    "9": 6,
+    "11": 7,
+    "10": 3,
+    "14": 6,
+    "12": 8,
+    "13": 9,
+    "16": 7,
+    "17": 7,
+    "15": 6,
+    "18": 2,
+    "19": 4,
+    "20": 2,
+    "22": 7,
+    "26": 1
+  }
+}
