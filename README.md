@@ -148,7 +148,13 @@ Each `artifact_data/<Design>/Verilog/` directory contains the RTL where randomne
 
 ## E. Security Evaluation with PROLEAD (Section VI)
 
-The `artifact_data/<Design>/SecurityEvaluation/` folder captures the information needed to reproduce the PROLEAD experiments:
+Please refer to the official [PROLEAD Wiki](https://github.com/ChairImpSec/PROLEAD/wiki) for installation instructions.
+
+> **Note:** This project uses a development version of PROLEAD that is 14 commits ahead of the official `v2.0.0` release. As a result, there may be differences between the current documentation on their website and our instructions.  
+>  
+> **PROLEAD version used:** `v2.0.0` + 14 commits (commit `44a15f5a962d6063f1d1a64405e9045e3fdb9efb`, authored on August 31, 2023), on branch `main`.
+
+The `artifact_data/<Design>/SecurityEvaluation/` folder has:
 
 - `<design>_netlist.v` is the gate-level netlist used as input to PROLEAD.
 - `config.set` is the PROLEAD configuration used for that design.
