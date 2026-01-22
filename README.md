@@ -117,8 +117,6 @@ For each probe root used in Section III-B, `randomness_map.json` stores the conf
 }
 ```
 
-This file is thus the bridge between the $\mathcal{R}(\cdot)$ bookkeeping in Section III-A and the conflict-set based constraints in Section III-B.
-
 ## C. Section IV — Graph-Theoretic Optimization
 
 Section IV recasts the conflict-set information as an interference graph and applies the DSATUR heuristic to minimize physical randomness.
@@ -160,6 +158,8 @@ The `artifact_data/<Design>/SecurityEvaluation/` folder has:
 - `config.set` is the PROLEAD configuration used for that design.
 - `console_output_*.txt` is the terminal transcript from running PROLEAD on that netlist.
 - `reports/` contains the generated simulation reports for the run.
+
+> **Note on Randomness Input:** In `config.set`, randomness is supplied as a primary input (`rand_bit_share`) to ensure it remains stable throughout the entire simulation instead of refreshing every clock cycle. While PROLEAD automatically splits this input into two shares, the netlist is wired to use only the first share (`rand_bit_share0`), which provides the required uniform fresh random bits; the second share is unused and ignored.
 
 
 ## License
