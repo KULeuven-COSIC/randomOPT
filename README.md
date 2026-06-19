@@ -1,18 +1,20 @@
 # Randomness Optimization Supplementary Artifact
 
-This repository accompanies the DATE 2026 paper **[“A Graph-Theoretic Framework for Randomness Optimization in First-Order Masked Circuits”](https://eprint.iacr.org/2025/2102)**. It contains the intermediate datasets and generated RTL used for the evaluation of the four 32-bit adder topologies in Section V-A (Kogge–Stone, Brent–Kung, Sklansky, Ripple-Carry) and the AES S-box case study in Section V-B.
+This repository accompanies the DATE 2026 paper **[["A Graph-Theoretic Framework for Randomness Optimization in First-Order Masked Circuits"](https://ieeexplore.ieee.org/document/11539466)]**. It contains the intermediate datasets and generated RTL used for the evaluation of the four 32-bit adder topologies in Section V-A (Kogge–Stone, Brent–Kung, Sklansky, Ripple-Carry) and the AES S-box case study in Section V-B.
 
 ## Citation
 
 If you use this artifact, please cite our paper and this repository:
 
 ```bibtex
-@misc{cryptoeprint:2025/2102,
-      author = {Dilip Kumar S. V. and Benedikt Gierlichs and Ingrid Verbauwhede},
-      title = {A Graph-Theoretic Framework for Randomness Optimization in First-Order Masked Circuits},
-      howpublished = {Cryptology {ePrint} Archive, Paper 2025/2102},
-      year = {2025},
-      url = {https://eprint.iacr.org/2025/2102}
+@INPROCEEDINGS{11539466,
+  author={S. V, Dilip Kumar and Gierlichs, Benedikt and Verbauwhede, Ingrid},
+  booktitle={2026 Design, Automation & Test in Europe Conference (DATE)},
+  title={A Graph-Theoretic Framework for Randomness Optimization in First-Order Masked Circuits},
+  year={2026},
+  pages={1-7},
+  doi={10.23919/DATE69613.2026.11539466},
+  url={https://ieeexplore.ieee.org/document/11539466}
 }
 ```
 
